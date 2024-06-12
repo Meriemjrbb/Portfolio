@@ -1,0 +1,142 @@
+.profile_img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    padding: 4px;
+    background: linear-gradient(300deg, #F4EAC3,#CDD9E8, #EBE6DF ,#A5E2F2,#E8C4D2);
+}
+.top-container{
+    color:#408698;
+    text-align: center;
+    height: 700px;
+    padding-top: 150px;
+}
+.container2{
+    text-align: center;
+    padding-top: 150px;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #C9E5DC, #ECCCDD, #B2DFF2 ,#E9EEF4,#CCD7E7);
+  }
+.meduim{
+    width: 40%;
+    margin: auto;
+    color:#7d495d
+    
+  }
+  h1{
+    font-family: "Sacramento", cursive;
+    color: #408698;
+    font-style: oblique;
+    font-weight: bold;
+  }
+  h2{
+    
+    font-family:sans-serif;
+    color: #408698;
+  }
+  h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #7d495d;
+  }
+  .container-educ{
+    text-align: center;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: auto;
+    gap: 50px;
+    width: 80%;
+  }
+  .item{
+    padding: 5%;
+    align-items: center;
+    text-align: center;
+    height: 40%;
+    flex: 1;
+    border-radius:20% ;
+    border: 10px double #C9E5DC ;
+    background: linear-gradient(300deg, #C9E5DC, #ECCCDD, #B2DFF2 ,#E9EEF4,#CCD7E7);;
+  }
+  .Skills{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+  }
+  .Projects{
+    padding-top: 100px;
+    width: 80%;
+    margin: auto;
+    gap: 30px;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
+  }
+  .item-project{
+    font-style: oblique;
+    padding: 20px;
+    border-top: 10px double ;
+    border-left: 10px solid  ;
+    border-bottom: 10px double ;
+    border-right: 10px solid ;
+    border-radius: 10%;
+    border-color: #92c9d6;
+  }
+  .container5{
+    margin-top: 150px;
+    margin-bottom: 0px;
+    
+    padding-bottom: 150px;
+    text-align: center;
+  }
+
+  img{
+    border-radius: 10%;
+  }
+  
+  .container3{
+    padding-top: 150px;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  .container4{
+    background: linear-gradient(300deg, #C9E5DC, #ECCCDD, #B2DFF2 ,#E9EEF4,#CCD7E7);
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .contact-img{
+    height: 30px;
+  }
+  .contact{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .copyright{
+    text-align: center;
+    background: linear-gradient(300deg, #C9E5DC, #ECCCDD, #B2DFF2 ,#E9EEF4,#CCD7E7);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: #7d495d;
+  }
+
+  @media(max-width:1000px) {
+    .container-educ{
+      flex-direction: column;
+    } 
+    .Skills{
+      flex-direction: column;
+    }
+    .Projects{
+      display: flex;
+      flex-direction: column;
+    }
+    
+  }
+  
